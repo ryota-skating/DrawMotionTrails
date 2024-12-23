@@ -1,10 +1,7 @@
 # DrawMotionTrails
+**DrawMotionTrails** is a tool designed to visualize the motion trails of a person in a video. It leverages **YOLO11** (with **BoT-SORT**) for object detection and tracking to extract the time-series coordinates of the main person in the footage. The motion trail is then rendered directly onto the video using **OpenCV** and feature point matching.
 
 ![sample gif](https://github.com/ryota-skating/DrawMotionTrails/blob/main/fig/sample.gif?raw=true)
-
-## Description
-
-**DrawMotionTrails** is a tool designed to visualize the motion trails of a person in a video. It leverages **YOLO11** (with **BoT-SORT**) for object detection and tracking to extract the time-series coordinates of the main person in the footage. The motion trail is then rendered directly onto the video using **OpenCV** and feature point matching.
 
 ## Features
 - Accurate object detection and tracking using YOLO11 and BoT-SORT.
