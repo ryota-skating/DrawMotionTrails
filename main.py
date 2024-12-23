@@ -108,6 +108,7 @@ def main():
 
     # Add audio to the video
     output_dir = "./outputs"
+    os.makedirs(output_dir, exist_ok=True)
     output_video_path = os.path.join(output_dir, args.video)
     os.system(f'ffmpeg -y -i {tmp_video_path} -i {input_video_path} -c copy '
               f'-map 0:v:0 -map 1:a:0 -shortest {output_video_path}')
