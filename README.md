@@ -49,7 +49,7 @@ Contributions are welcome! Feel free to open issues or submit pull requests to i
 
 ## Acknowledgments
 This tool uses:
-- [YOLO11](https://github.com/ultralytics/yolov5) for object detection.
-- [BoT-SORT](https://github.com/NirAharon/BoT-SORT) for object tracking.
+- [YOLO11](https://docs.ultralytics.com/models/yolo11) for object detection.
+- [BoT-SORT](https://docs.ultralytics.com/modes/track) for object tracking.
 - [OpenCV](https://opencv.org/) for feature point matching and rendering.
 - [ffmpeg](https://ffmpeg.org/) for video processing.
